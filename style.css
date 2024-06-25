@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 12px;
+}
+
+body {
+  background-color: rgb(134, 134, 40);
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+#counter {
+  position: absolute;
+  top: 3em;
+  font-size: 8em;
+  color: aliceblue;
+  text-shadow: 1px 1px 1px #000;
+  font-family: sans-serif;
+}
+
+#banana {
+  width: 45em;
+  height: 23em;
+  background-image: url(./assets/banana.png);
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+/* Responsividade */
+@media (max-width: 2560px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1920px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1440px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 1280px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 5px;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 4px;
+  }
+}
